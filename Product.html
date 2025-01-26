@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <a class="navbar-brand text-uppercase" href="#">camera</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase" >
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Product Image Carousel -->
+            <div class="col-md-6">
+                <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://shop.sg.canon/media/wysiwyg/eShop_R5_1275x850_.jpg" class="d-block w-100" alt="Product Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://shop.sg.canon/media/wysiwyg/eShop_R7_1275x850_.jpg" class="d-block w-100" alt="Product Image 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Second Column (Content or other items) -->
+            <div class="col-md-6">
+                <h1>Canon EOS R1 Body</h1>
+                <p class="text-muted">Blaze your way through with up to 40 fps continuous shooting on the EOS R1, the flagship of the full-frame mirrorless R-series, which features Dual Pixel Intelligent AF that keeps your subject focused no matter the situation</p>
+                <h2 class="text-primary"> Price: $199.99</h2>
+                <ul>
+                    <li> 1 January - 31 January 2025</li>
+                    <li>such as and not restricting to PP</li>
+                    <li>EXASCEND ELEMENT 512GB CFEXPRESS TYPE B worth $259</li>
+                    <li>PEAK DESIGN SLIDE LITE worth $99</li>
+                </ul>
+                <a href="#" class="btn btn-warning text-uppercase w-100">Buy Now</a>
+        </div>
+    </div>
+        <!-- Accordion for Description and Specifications -->
+    <div class="accordion my-5" id="productAccordion">
+            <!-- Product Description Section -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Product Description
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#productAccordion">
+                <div class="accordion-body">
+                  <p>
+                    Blaze your way through with up to 40 fps continuous shooting on the EOS R1, the flagship of the full-frame mirrorless R-series, which features Dual Pixel Intelligent AF that keeps your subject focused no matter the situation. With the In-camera Upscaling and Neural Network Noise Reduction feature, you can get clean images with a resolution of approximately 96MP even when shooting at ISO102,400.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Technical Specifications Section -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Details
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#productAccordion">
+                <div class="accordion-body">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>Details:</td>
+                        <td>24.2MP Full-Frame</td>
+                      </tr>
+                      <tr>
+                        <td>Details:</td>
+                        <td>DIGIC Accelerator & DIGIC X</td>
+                      </tr>
+                      <tr>
+                        <td>Details:</td>
+                        <td>4K 120p Recording</td>
+                      </tr>
+                      <tr>
+                        <td>Details:</td>
+                        <td>Action Priority Feature</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <p>Follow us on our social media channels for the latest updates.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center">
+                   <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                   <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                   <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            &copy; 2025 All rights reserved.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
